@@ -1,0 +1,443 @@
+*{margin: 0;
+    padding: 0;
+}
+
+body{position: relative;}
+
+
+/* .preview__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    background-color: #262626;
+    color: white;
+}
+
+.preview__header img {
+    width: 1rem;
+}
+.preview__header_a{
+    text-decoration:none;
+    font-size: 1.3rem;
+    color: white;
+}
+    
+.preview__header_left{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.preview__header_left_button{
+    background-color: #82b440;
+    padding: 0.5rem 1rem;
+    border-radius:  0.4rem;
+    color: white;
+}
+.preview__header_left_button:hover{
+    background-color: #6f9a37;
+} */
+
+/* .............................................................. */
+
+
+#navigation{
+    background-color: #0C0C1C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.icon a{
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: s; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    color: white;
+    margin-left: 2rem;
+    font-size:larger;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.icon a:hover{
+    color: red;
+    transition: 5s;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+}
+
+.button_1{
+    background-color: #bf1109;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 1rem 3rem;
+    width: 13.5rem;
+    /* font-weight: ; */
+    font-size: large;
+    font-weight: 700;
+    transition: 0.8s;
+    border: none;
+    text-decoration: none;
+}
+
+.button_1:hover{
+    background-color:#14A83A;
+}
+
+.button_2{
+    padding: 0 1rem;
+    /* color: white; */
+    background-color: #14A83A;
+    border-radius: 0.8rem;
+    border: none;
+    /* font-weight: bold; */
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_2 img{
+    width: 1rem;
+}
+
+/* ................................................... */
+#hero{
+    background-color: #020202;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    margin-top: 5rem;
+}
+
+.left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.left .yello_p{
+    color: #FFB200;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.lefth1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: start; */
+    
+}
+
+.lefth1_1{
+    display: flex;
+}
+.left h1{
+    font-size :4rem ;
+    text-transform: capitalize;
+    /* display: flex; */
+}
+
+.left .h1red{
+    color: red;
+}
+
+.left .WHITE_P{
+    width :30rem;
+    font-size: 1.8rem;
+}
+
+/* .............................. */
+
+#Categories{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 6rem 5rem;
+    height: 46vh;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.Categories_upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Categories_upper_h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family:sans-serif;
+}
+
+.Categories_upper_button{
+    text-decoration: none;
+    color: #484848;
+    padding: 1.1rem 3rem;
+    background-color: white;
+    border-style: solid;
+    border-color: #bf1109;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.Categories_lower{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0.8rem; */
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4848481a;
+    border-radius: 0.8rem;
+    margin: 0 0 2.5rem;
+    padding: 2.2rem 1.9rem;
+    /* width: 8rem; */
+    transition: 0.5s;
+}
+
+#Categories .Categories_lower .box:hover{
+    background-color: #bf1109;
+    transition: 0.5s;
+
+}
+
+.box_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-left: 0.5rem;
+}
+.box_right h4{
+    font-size: 1.5rem;
+}
+.box_right span{
+    font-size: 1rem;
+    color: #484848;
+}
+
+.box_left{
+    background-color: white;
+    border-radius: 3rem;
+    padding: 0.8rem;
+    /* margin-left; */
+}
+
+/* .............................................. */
+
+#about_us{
+    height: 80vh;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 6rem 5rem;
+}
+
+div .about_us_left{
+    background-color: #ffffff;
+}
+
+.about_us_left{
+    /* display: flex; */
+    width: 50%;
+    height: 100%;
+    /* padding: 2rem; */
+}
+
+.about_us_left img{
+    width:33rem;
+}
+
+div .about_us_right{
+    background-color: #ffffff;
+}
+
+.about_us_right{
+    width: 50%;
+    height: 100%;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.about_us_title{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_title i{
+    color: #FFB200;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.about_us_title h4{
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.about_us_info{
+    color:#484848;
+    font-family: sans-serif;
+    padding: 1rem 0;
+    margin: 0 0 1.5;
+    line-height: 1.5;      
+}
+
+
+/* >................................< */
+
+#offer_combo_section{
+    height: 70vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 5rem;
+    background-color: #000;
+    margin-top: 2rem;
+    background-image: url(./image/backdrop.jpg);
+    border-image-width: 10rem;
+}
+
+#offer_combo_section .about_us_right , .about_us_left{
+    background-color: rgba(0, 0, 0, 0.096);
+} 
+
+#offer_combo_section .about_us_title h4{
+    color: #ffffff;
+}
+
+#offer_combo_section .box{
+    background-color: #00000000;
+}
+
+#offer_combo_section .box .box_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.349);
+    padding: 0em 0;
+    width: 5rem;
+    height: 6rem;
+    border-radius: 0.8rem;
+    /* margin-left: 0; */
+}
+
+#offer_combo_section .about_us_right .button_1 {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ooffer_combo_section .offer_image{
+    width: 50%;
+    height: 100%;
+}
+#offer_combo_section .offer_image img{
+
+    width: 20   rem;
+    margin-left: 10rem;
+    background-color: #ffffff00;
+}
+
+/* ........................................................................... */
+
+#Why_Were_Your_Best_Choice{
+    height: 100vh;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem 5rem;
+}
+
+.choice_upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice_lower{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.choice_lower .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 13rem;
+    height: 14rem;
+    transition: 0.5s;
+    /* padding: 1rem; */
+} 
+
+.choice_lower .box:hover{
+    transition: 0.5s;
+    background-color: #bf1109;
+}
+
+.choice_lower .box .box_left{
+    background-color: #ffffff00;
+}
+
+.choice_lower .box .box_left i{
+    font-size: 5rem;
+}
+
+.choice_lower .box .box_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.choice_lower .box .box_right h4{
+    font-size: 1.3rem;
+    margin-bottom: 0.9rem;
+}
+
+.choice_lower .box .box_right p{
+    /* margin-top: 0.9rem; */
+    color: #484848;
+    width: 12rem;
+    font-weight: 500;
+    text-align: center;
+}
